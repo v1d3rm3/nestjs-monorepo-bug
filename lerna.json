@@ -1,0 +1,6 @@
+{
+  "packages": [
+    "api", "common"
+  ],
+  "version": "0.0.0"
+}

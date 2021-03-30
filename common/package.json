@@ -1,0 +1,30 @@
+{
+  "private": true,
+  "name": "mono-common",
+  "version": "0.0.1",
+  "description": "",
+  "authors": "",
+  "main": "./release/main.js",
+  "types": "./release/main.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@nestjs/common": "7.6.13",
+    "@nestjs/core": "7.6.13",
+    "@nestjs/platform-express": "7.6.13",
+    "reflect-metadata": "0.1.13",
+    "rxjs": "6.6.6"
+  },
+  "peerDependencies": {
+    "@nestjs/common": "7.6.13",
+    "@nestjs/core": "7.6.13",
+    "@nestjs/platform-express": "7.6.13",
+    "reflect-metadata": "0.1.13",
+    "rxjs": "6.6.6"
+  },
+  "devDependencies": {
+    "ts-node": "9.1.1",
+    "typescript": "4.1.5"
+  }
+}
